@@ -233,12 +233,15 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Game.cpp" />
+    <ClCompile Include="src\HitsujiGUI_Button.cpp" />
     <ClCompile Include="src\Main.cpp" />
     <ClCompile Include="src\Title.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Common.hpp" />
     <ClInclude Include="src\Game.hpp" />
+    <ClInclude Include="src\HitsujiGUI.hpp" />
+    <ClInclude Include="src\HitsujiGUI_Button.hpp" />
     <ClInclude Include="src\Title.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
